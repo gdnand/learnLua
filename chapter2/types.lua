@@ -1,0 +1,5 @@
+print(type("Hello, world"))
+print(type(print))
+print(type(true))
+print(type(nil))
+print(type(type(nil)))
