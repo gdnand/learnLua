@@ -55,5 +55,19 @@ a = {dinesh = function (x)
 a.dinesh(10)
 a.bruh(10)
 
+local dinesh = function (n)
+  while n ~= 1 do
+    print(n)
+    n = n - 1
+  end
+end
 
+dinesh(10)
 
+local hotelCommands = {
+  greet = function (x)
+    print("Hello, " .. x .. "!");
+  end,
+}
+
+print(hotelCommands.greet("Dinesh"))
